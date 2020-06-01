@@ -53,7 +53,7 @@ Each generation is a pure function of the preceding one.
 The rules continue to be applied repeatedly
 to create further generations.
 
-# The Task
+## The Task
 
 As a mob, write a command line application
 that calculates the next generation
@@ -62,7 +62,7 @@ in a Conway's Game of Life simulation.
 The program should take a text input from stdin
 that looks like the following:
 
-```
+```text
 Generation 1:
 4 8
 ........
@@ -73,7 +73,7 @@ Generation 1:
 
 and produce an output in the same format:
 
-```
+```text
 $ sbt run < generation1.txt
 
 Generation 2:
@@ -88,10 +88,10 @@ If the input is badly formatted,
 the program should print an appropriate error message
 and fail with a non-zero error code.
 
-# References
+## References
 
-- http://codingdojo.org/kata/GameOfLife/
-- https://en.wikipedia.org/wiki/Conway%27s_Game_of_Life#Variations
-- https://www.jamasoftware.com/blog/mob-programming-jama/
-- http://butunclebob.com/ArticleS.UncleBob.TheThreeRulesOfTdd
-- https://natureofcode.com/book/chapter-7-cellular-automata/
+- <http://codingdojo.org/kata/GameOfLife/>
+- <https://en.wikipedia.org/wiki/Conway%27s_Game_of_Life#Variations>
+- <https://www.jamasoftware.com/blog/mob-programming-jama/>
+- <http://butunclebob.com/ArticleS.UncleBob.TheThreeRulesOfTdd>
+- <https://natureofcode.com/book/chapter-7-cellular-automata/>
